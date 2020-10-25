@@ -43,17 +43,41 @@ function App() {
         <span>{screen}</span>
       </div>
       <div className="icons">
-        <button className="icon" title="Resume" onClick={() => setScreen(Home)}>
-          <ImFacebook2 size="35" />
+        <button className="icon" title="Facebook">
+          <a
+            href="https://www.facebook.com/ehxn0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImFacebook2 size="35" />
+          </a>
         </button>
-        <button className="icon" title="Resume" onClick={() => setScreen(Home)}>
-          <ImLinkedin size="35" />
+        <button className="icon" title="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/ahsan-shakeel-93342980/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImLinkedin size="35" />
+          </a>
         </button>
-        <button className="icon" title="Resume" onClick={() => setScreen(Home)}>
-          <ImStackoverflow size="35" />
+        <button className="icon" title="Stackoverflow">
+          <a
+            href="https://stackoverflow.com/users/13884028/ahsan-shakeel"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImStackoverflow size="35" />
+          </a>
         </button>
-        <button className="icon" title="Resume" onClick={() => setScreen(Home)}>
-          <ImGithub size="35" />
+        <button className="icon" title="Github">
+          <a
+            href="https://github.com/EhsanShakil"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImGithub size="35" />
+          </a>
         </button>
       </div>
     </div>
