@@ -12,11 +12,19 @@ body {
   width: 60px;
   height: 60px;
   background-color: white;
+  border-radius: 8px;
+  /* background: #f3f5f7;
+  box-shadow: 5px 5px 0px #f1f3f5, -5px -5px 0px #f5f7f9;
+  outline: none;
+  border: none; */
 }
 .icon:active {
   background-color: white;
   box-shadow: 0 5px grey;
   transform: translateY(4px);
+}
+.icon:hover {
+  cursor: pointer;
 }
 .icons {
   display: flex;
