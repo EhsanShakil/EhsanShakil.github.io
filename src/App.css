@@ -43,9 +43,20 @@ body {
   margin: 10px;
   display: flex;
   justify-content: center;
+  text-align: center;
+  align-items: center;
   color: black;
   background-color: white;
+  padding: 20px;
 }
 a {
   color: white;
+}
+.home > h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+}
+.home > p {
+  font-family: Arial;
+  font-size: 18px;
 }
