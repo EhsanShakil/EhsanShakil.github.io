@@ -36,7 +36,13 @@ function App() {
           <MdWork size="35" />
         </button>
         <button className="icon" title="Resume" onClick={() => setScreen(Home)}>
-          <MdPictureAsPdf size="35" />
+          <a
+            href="https://www.facebook.com/ehxn0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <MdPictureAsPdf size="35" />
+          </a>
         </button>
       </div>
       <div className="screen">

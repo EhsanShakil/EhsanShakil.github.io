@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,15 +11,17 @@ body {
   margin: 10px;
   width: 60px;
   height: 60px;
-  background-color: white;
+  background-color: black;
   border-radius: 8px;
   /* background: #f3f5f7;
   box-shadow: 5px 5px 0px #f1f3f5, -5px -5px 0px #f5f7f9;
   outline: none;
   border: none; */
+  color: white;
+  outline: none;
 }
 .icon:active {
-  background-color: white;
+  background-color: black;
   box-shadow: 0 5px grey;
   transform: translateY(4px);
 }
@@ -35,13 +37,15 @@ body {
   flex-direction: row;
 }
 .screen {
-  border: 3px solid white;
-  width: 800px;
+  border: 10px solid black;
+  border-radius: 20px;
+  width: 700px;
   margin: 10px;
   display: flex;
   justify-content: center;
-  color: white;
+  color: black;
+  background-color: white;
 }
 a {
-  color: black;
+  color: white;
 }
