@@ -20,9 +20,13 @@ body {
   color: white;
   outline: none;
 }
+.icon:hover {
+  background-color: white;
+  color: black;
+}
 .icon:active {
-  background-color: black;
-  box-shadow: 0 5px grey;
+  background-color: white;
+  box-shadow: 0 5px black;
   transform: translateY(4px);
 }
 .icon:hover {
@@ -52,6 +56,9 @@ body {
 a {
   color: white;
 }
+a:hover {
+  color: black;
+}
 .home > h1 {
   font-family: "Anton", sans-serif;
   font-size: 40px;
@@ -60,7 +67,11 @@ a {
   font-family: Arial;
   font-size: 18px;
 }
-.stacks {
+.stacks,
+.projects {
   font-family: "Anton", sans-serif;
-  font-weight: bold;
+}
+.project {
+  display: flex;
+  flex-direction: row;
 }

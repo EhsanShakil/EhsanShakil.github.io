@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 
 const Home = () => {
   return (
@@ -8,7 +7,7 @@ const Home = () => {
       <p>MERN Stack Developer</p>
       <p>
         Hello, I am Ahsan Shakeel, I am a Industrial & Manufacturing Engineer &
-        I switched my career in this field because of passion. I recently
+        I switched my career in this field because of my passion. I recently
         completed my "MERN Stack Development" course and I have some good grips
         on frontend technologies.
       </p>

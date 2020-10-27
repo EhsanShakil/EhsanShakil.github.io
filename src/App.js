@@ -11,31 +11,41 @@ import {
   ImGithub,
 } from "react-icons/im";
 import { MdWork, MdPictureAsPdf } from "react-icons/md";
-
 import "./App.css";
+
 function App() {
-  const [screen, setScreen] = useState(Home);
+  // useEffect(() => {
+  //   <Home />;
+  //   <Stacks />;
+  //   <Projects />;
+  // }, []);
+  let [screen, setScreen] = useState(<Home />);
+
   return (
     <div className="container">
       <div className="icons">
-        <button className="icon" title="Home" onClick={() => setScreen(Home)}>
+        <button
+          className="icon"
+          title="Home"
+          onClick={() => setScreen(<Home />)}
+        >
           <ImHome size="35" />
         </button>
         <button
           className="icon"
           title="Tech Stacks"
-          onClick={() => setScreen(Stacks)}
+          onClick={() => setScreen(<Stacks />)}
         >
           <ImStack size="35" />
         </button>
         <button
           className="icon"
           title="Projects"
-          onClick={() => setScreen(Projects)}
+          onClick={() => setScreen(<Projects />)}
         >
           <MdWork size="35" />
         </button>
-        <button className="icon" title="Resume" onClick={() => setScreen(Home)}>
+        <button className="icon" title="Resume">
           <a
             href="https://www.facebook.com/ehxn0"
             target="_blank"
@@ -76,7 +86,7 @@ function App() {
             <ImStackoverflow size="35" />
           </a>
         </button>
-        <button className="icon" title="Github">
+        <button className="icon" title="GitHub">
           <a
             href="https://github.com/EhsanShakil"
             target="_blank"
