@@ -22,15 +22,17 @@ const Projects = () => {
         <button className="arrow" onClick={() => setNumber(--number)}>
           <AiFillCaretLeft size="30" />
         </button>
-        {projects
-          .filter((project) => project.id === number)
-          .map((project, index) => (
-            <div key={index}>
-              <p>{project.id}</p>
-              <p>{project.project_name}</p>
-              <p>{project.url}</p>
-            </div>
-          ))}
+        {projects.length >= number && number !== 0
+          ? projects
+              .filter((project) => project.id === number)
+              .map((project, index) => (
+                <div key={index}>
+                  <p>{project.id}</p>
+                  <p>{project.project_name}</p>
+                  <p>{project.url}</p>
+                </div>
+              ))
+          : setNumber(1)}
         <button className="arrow" onClick={() => setNumber(++number)}>
           <AiFillCaretRight size="30" />
         </button>
