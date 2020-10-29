@@ -6,6 +6,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
+  flex-wrap: wrap;
 }
 .icon {
   margin: 10px;
@@ -87,14 +88,12 @@ a:hover {
 }
 .projectDetails {
   width: 400px;
-  justify-content: flex-start;
-  align-self: flex-start;
-  align-items: flex-start;
 }
 .projectButton {
   background-color: black;
   border-radius: 8px;
   outline: none;
+  margin-left: 20px;
 }
 .projectButton > a {
   text-decoration: none;

@@ -7,11 +7,13 @@ const Projects = () => {
       id: 1,
       project_name: "COVID19-TRACKER",
       url: "http://covid_19_tracker.surge.sh/",
+      repo_url: "https://www.github.com/ehsanshakil",
     },
     {
       id: 2,
       project_name: "QUIZ-APP",
       url: "https://quiz-app-project.netlify.app/",
+      repo_url: "https://www.github.com/ehsanshakil",
     },
   ]);
   let [number, setNumber] = useState(1);
@@ -27,7 +29,6 @@ const Projects = () => {
               .filter((project) => project.id === number)
               .map((project, index) => (
                 <div key={index} className="projectDetails">
-                  <h3>ID: {project.id}</h3>
                   <h3>Project Name: {project.project_name}</h3>
                   <button className="projectButton">
                     <a
@@ -37,6 +38,16 @@ const Projects = () => {
                       rel="noreferrer"
                     >
                       <h3>Preview</h3>
+                    </a>
+                  </button>
+                  <button className="projectButton">
+                    <a
+                      href={project.repo_url}
+                      alt="Repo URL"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h3>Repository</h3>
                     </a>
                   </button>
                 </div>
