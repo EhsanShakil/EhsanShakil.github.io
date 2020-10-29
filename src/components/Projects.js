@@ -22,14 +22,23 @@ const Projects = () => {
         <button className="arrow" onClick={() => setNumber(--number)}>
           <AiFillCaretLeft size="30" />
         </button>
-        {projects.length >= number && number !== 0
+        {projects.length >= number && number > 0
           ? projects
               .filter((project) => project.id === number)
               .map((project, index) => (
-                <div key={index}>
-                  <p>{project.id}</p>
-                  <p>{project.project_name}</p>
-                  <p>{project.url}</p>
+                <div key={index} className="projectDetails">
+                  <h3>ID: {project.id}</h3>
+                  <h3>Project Name: {project.project_name}</h3>
+                  <button className="projectButton">
+                    <a
+                      href={project.url}
+                      alt="Project URL"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h3>Preview</h3>
+                    </a>
+                  </button>
                 </div>
               ))
           : setNumber(1)}

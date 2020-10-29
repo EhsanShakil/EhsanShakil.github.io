@@ -23,14 +23,13 @@ body {
 .icon:hover {
   background-color: white;
   color: black;
+  cursor: pointer;
 }
+
 .icon:active {
   background-color: white;
   box-shadow: 0 5px black;
   transform: translateY(4px);
-}
-.icon:hover {
-  cursor: pointer;
 }
 .icons {
   display: flex;
@@ -74,6 +73,8 @@ a:hover {
 .project {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .arrow {
   background-color: black;
@@ -83,4 +84,19 @@ a:hover {
   height: 50px;
   outline: none;
   cursor: pointer;
+}
+.projectDetails {
+  width: 400px;
+  justify-content: flex-start;
+  align-self: flex-start;
+  align-items: flex-start;
+}
+.projectButton {
+  background-color: black;
+  border-radius: 8px;
+  outline: none;
+}
+.projectButton > a {
+  text-decoration: none;
+  color: white;
 }
