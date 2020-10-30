@@ -5,15 +5,70 @@ const Projects = () => {
   let [projects, setProjects] = useState([
     {
       id: 1,
-      project_name: "COVID19-TRACKER",
-      url: "http://covid_19_tracker.surge.sh/",
-      repo_url: "https://www.github.com/ehsanshakil",
+      project_name: "GitHub-Username-Finder",
+      url: "http://github-username-finder.surge.sh/",
+      repo_url: "https://github.com/EhsanShakil/Github-Username-Finder",
     },
     {
       id: 2,
-      project_name: "QUIZ-APP",
-      url: "https://quiz-app-project.netlify.app/",
-      repo_url: "https://www.github.com/ehsanshakil",
+      project_name: "Quotation-App",
+      url: "http://quotation-app.surge.sh/",
+      repo_url: "https://github.com/EhsanShakil/Quotation-App",
+    },
+    {
+      id: 3,
+      project_name: "Web-Animation A",
+      url: "http://web-animation-project4a.surge.sh/",
+      repo_url: "https://github.com/EhsanShakil/Web-Animation",
+    },
+    {
+      id: 4,
+      project_name: "Web-Animation B",
+      url: "http://web-animation-project4b.surge.sh/",
+      repo_url: "https://github.com/EhsanShakil/Web-Animation-4b",
+    },
+    {
+      id: 5,
+      project_name: "Website-With-Animation",
+      url: "http://website-with-animation.surge.sh/",
+      repo_url: "https://github.com/EhsanShakil/Website-With-Animation",
+    },
+    {
+      id: 6,
+      project_name: "Covid19-Tracker",
+      url: "http://covid_19_tracker.surge.sh/",
+      repo_url: "https://github.com/EhsanShakil/Covid-19-Tracker",
+    },
+    {
+      id: 7,
+      project_name: "Expense-Tracker",
+      url: "https://expense-tracker-with-typescript.netlify.app/",
+      repo_url:
+        "https://github.com/EhsanShakil/Expense-Tracker-Using-TypeScript",
+    },
+    {
+      id: 8,
+      project_name: "Quiz-App",
+      url: "https://quiz-app-project.surge.sh/",
+      repo_url: "https://github.com/EhsanShakil/Quiz-App",
+    },
+    {
+      id: 9,
+      project_name: "Shoe-Store",
+      url: "http://shoe-store-2020.surge.sh/",
+      repo_url: "https://github.com/EhsanShakil/Shoe-Store",
+    },
+    {
+      id: 10,
+      project_name: "Timer-App",
+      url: "https://reactjs-timer-app.netlify.app/",
+      repo_url: "https://github.com/EhsanShakil/Timer-App",
+    },
+    {
+      id: 11,
+      project_name: "SpaceX-App",
+      url: "https://spacex-launches-application.netlify.app/",
+      repo_url: "https://github.com/EhsanShakil/SpaceX",
     },
   ]);
   let [number, setNumber] = useState(1);
@@ -24,7 +79,7 @@ const Projects = () => {
         <button className="arrow" onClick={() => setNumber(--number)}>
           <AiFillCaretLeft size="30" />
         </button>
-        {projects.length >= number && number > 0
+        {projects.length >= number && !(number <= 0)
           ? projects
               .filter((project) => project.id === number)
               .map((project, index) => (
@@ -52,7 +107,11 @@ const Projects = () => {
                   </button>
                 </div>
               ))
-          : setNumber(1)}
+          : number > 11
+          ? setNumber(11)
+          : number < 11
+          ? setNumber(1)
+          : null}
         <button className="arrow" onClick={() => setNumber(++number)}>
           <AiFillCaretRight size="30" />
         </button>
