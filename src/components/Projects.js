@@ -84,7 +84,7 @@ const Projects = () => {
               .filter((project) => project.id === number)
               .map((project, index) => (
                 <div key={index} className="projectDetails">
-                  <h3>Project Name: {project.project_name}</h3>
+                  <h3>{project.project_name}</h3>
                   <button className="projectButton">
                     <a
                       href={project.url}

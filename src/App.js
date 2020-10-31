@@ -14,11 +14,6 @@ import { MdWork, MdPictureAsPdf } from "react-icons/md";
 import "./App.css";
 
 function App() {
-  // useEffect(() => {
-  //   <Home />;
-  //   <Stacks />;
-  //   <Projects />;
-  // }, []);
   let [screen, setScreen] = useState(<Home />);
 
   return (
