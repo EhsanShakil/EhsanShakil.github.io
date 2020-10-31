@@ -8,8 +8,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg"
           alt="html5"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="HTML5"
         />
       </a>
@@ -17,8 +16,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg"
           alt="css3"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="CSS3"
         />
       </a>
@@ -26,8 +24,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg"
           alt="bootstrap"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="BOOTSTRAP"
         />
       </a>
@@ -39,8 +36,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg"
           alt="javascript"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="JAVASCRIPT"
         />
       </a>
@@ -48,8 +44,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg"
           alt="react"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="REACTJS"
         />
       </a>
@@ -61,8 +56,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/typescript/typescript-original.svg"
           alt="typescript"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="TYPESCRIPT"
         />
       </a>
@@ -70,8 +64,7 @@ const Stacks = () => {
         <img
           src="https://reactnative.dev/img/header_logo.svg"
           alt="reactnative"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="REACT-NATIVE"
         />
       </a>
@@ -79,8 +72,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/redux/redux-original.svg"
           alt="redux"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="REDUX"
         />
       </a>
@@ -88,8 +80,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg"
           alt="nodejs"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="NODEJS"
         />
       </a>
@@ -97,8 +88,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/express/express-original-wordmark.svg"
           alt="express"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="EXPRESS"
         />
       </a>
@@ -106,8 +96,7 @@ const Stacks = () => {
         <img
           src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg"
           alt="graphql"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="GRAPHQL"
         />
       </a>
@@ -115,8 +104,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original-wordmark.svg"
           alt="mongodb"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="MONGODB"
         />
       </a>
@@ -124,8 +112,7 @@ const Stacks = () => {
         <img
           src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
           alt="firebase"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="FIREBASE"
         />
       </a>
@@ -133,8 +120,7 @@ const Stacks = () => {
         <img
           src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
           alt="jest"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="JEST"
         />
       </a>
@@ -146,8 +132,7 @@ const Stacks = () => {
         <img
           src="https://asset.jarombek.com/logos/enzyme.png"
           alt="jest"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="ENZYME"
         />
       </a>
@@ -155,8 +140,7 @@ const Stacks = () => {
         <img
           src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
           alt="postman"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="POSTMAN"
         />
       </a>
@@ -164,8 +148,7 @@ const Stacks = () => {
         <img
           src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg"
           alt="canvasjs"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="CANVASJS"
         />
       </a>
@@ -173,8 +156,7 @@ const Stacks = () => {
         <img
           src="https://www.chartjs.org/media/logo-title.svg"
           alt="chartjs"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="CHARTJS"
         />
       </a>
@@ -182,8 +164,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/linux/linux-original.svg"
           alt="linux"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="LINUX"
         />
       </a>
@@ -191,8 +172,7 @@ const Stacks = () => {
         <img
           src="https://devicons.github.io/devicon/devicon.git/icons/photoshop/photoshop-plain.svg"
           alt="photoshop"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="ADOBE-PHOTOSHOP"
         />
       </a>
@@ -204,8 +184,7 @@ const Stacks = () => {
         <img
           src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"
           alt="illustrator"
-          width="60"
-          height="60"
+          className="stacksIcon"
           title="ADOBE-ILLUSTRATOR"
         />
       </a>
