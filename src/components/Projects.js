@@ -116,6 +116,15 @@ const Projects = () => {
           <AiFillCaretRight size="30" />
         </button>
       </div>
+      <br />
+      <div className="btns">
+        <button className="btn" onClick={() => setNumber(--number)}>
+          Prev
+        </button>
+        <button className="btn" onClick={() => setNumber(++number)}>
+          Next
+        </button>
+      </div>
     </div>
   );
 };
