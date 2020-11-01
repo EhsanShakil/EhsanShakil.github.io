@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
 
 const Projects = () => {
-  let [projects, setProjects] = useState([
+  let [projects] = useState([
     {
       id: 1,
       project_name: "GitHub-Username-Finder",
