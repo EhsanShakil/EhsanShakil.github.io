@@ -15,7 +15,6 @@ import "./App.css";
 
 function App() {
   let [screen, setScreen] = useState(<Home />);
-
   return (
     <div className="container">
       <div className="icons">
@@ -42,9 +41,10 @@ function App() {
         </button>
         <button className="icon" title="Resume">
           <a
-            href="https://www.facebook.com/ehxn0"
+            href={process.env.PUBLIC_URL + "/Resume.pdf"}
             target="_blank"
             rel="noreferrer"
+            title="Resume"
           >
             <MdPictureAsPdf size="35" />
           </a>
